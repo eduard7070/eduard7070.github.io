@@ -1,0 +1,63 @@
+
+
+.reviews-side {
+    
+    &__items {
+    }
+    &__item {
+        cursor: pointer;
+        padding: 5px;
+        &:hover{
+            background-color: #1ab9ce;
+        }
+    }
+    &__supbody {
+        display: flex;
+            justify-content: space-between;
+    }
+    &__label {
+        margin: 0px 0 47px 0px ;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 12px;
+        text-align: left;
+        color: #333333;
+       
+        &:hover{
+            color: #fd8322;
+        }
+        
+    }
+    
+       
+    
+    &_dada {
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 300;
+        color: #dadada;
+         
+    }
+    &__body {
+        margin: 22px 0px 30px 17px ;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__serif {
+        font-size: 48px;
+        font-weight: 900;
+        margin-right: 13px;
+        text-align: left;
+        color: #dadada;
+          
+        
+    }
+    &__text {
+       
+        font-size: 12px;
+        font-weight: 300;
+        text-align: left;
+        color: #666666;
+           
+    }
+}
