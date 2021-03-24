@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <!-- Bootstrap CSS -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../designer_bouquets_cards/" />
+    <link rel="stylesheet" href="../../../css/slick.css" />
+    <link rel="stylesheet" href="../../../css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="../../../css/style.min.css" />
+    <title>Hello, world!</title>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <div class="page__menu">
+                <div class="row">
+                    <nav class="col-lg-7 header__menu menu-header">
+                        <div class="menu-header__icon icon-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <ul class="menu-header__list">
+                            <li class="menu-header__item"><a href="../../../index.html"
+                                    class="menu-header__link">ГЛАВНАЯ</a></li>
+                            <li class="menu-header__item"><a href="#" class="menu-header__link">КОНТАКТЫ</a></li>
+                            <li class="menu-header__item"><a href="#" class="menu-header__link">КОРПОРАТИВНЫМ
+                                    КЛИЕНТАМ</a></li>
+                            <li class="menu-header__item"><a href="#" class="menu-header__link">ДОСТАВКА и ОПЛАТА</a>
+                            </li>
+                            <li class="menu-header__item"><a href="#" class="menu-header__link">ОТЗЫВЫ</a></li>
+                        </ul>
+                    </nav>
+                    <div class="col-lg-4 header__social social">
+                        <a href="#" class="social__instagran"><img src="../../../icons/instagram.png" alt="inst" /></a>
+                        <a href="#" class="social__watshap"><img src="../../../icons/watshap.png" alt="wats" /></a>
+                        <a href="#" class="social__feysbuc"><img src="../../../icons/feysbuc.png" alt="feys" /></a>
+                        <a href="#" class="social__twitter"><img src="../../../icons/twitter.png" alt="twit" /></a>
+                        <div class="header__registration registration-header"><a href="#"
+                                class="registration-header__enter">вход</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="subheader">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-3 col-sm-4 logo-container">
+                    <div class="subheader__logo">
+                        <a href="#" class="logo__link"><img src="../../../icons/logo.png" alt="logo" /></a>
+                    </div>
+                </div>
+                <div data-da=".promo__subtitle, 991 , last " class="col-lg-4 col-md-12 subheader-info">
+                    <h1 class="subheader__title">ДОСТАВКА ЦВЕТОВ В МОСКВЕ</h1>
+                    <h2 class="subheader__subtitle">Принимаем заказы ежедневно</h2>
+                    <h2 class="subheader__subtitle">с 9.00 до 21.00.</h2>
+                </div>
+                <div class="col-lg-2 offset-lg-1 col-md-3 offset-md-3 col-sm-4 subheader__coll">
+                    <div class="subheader__tel-main">наш телефон</div>
+                    <div class="subheader__tel-number"><a href="tel:89154100837"
+                            class="subheader__tel-link">8-915-410-08-37</a></div>
+                    <button class="button zakazat-zwonok__subheader">ЗАКАЗАТЬ ЗВОНОК</button>
+                </div>
+                <div data-da=".menu-header__list, 576 , last "
+                    class="col-lg-2 col-md-2 col-sm-4 subheader-basket basket-subheader">
+                    <a href="#" class="basket-subheader__link"><span>3</span></a> <button
+                        class="button oformit__zakaz">ОФОРМИТЬ ЗАКАЗ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="search">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 search-block">
+                    <form action="#" class="page__search search-page">
+                        <div class="search-page__select">
+                            <div class="search-page__title"><span>везде</span><span data-text="выбрано:"
+                                    class="search-page__quantity"></span></div>
+                            <div class="search-page__categories categories-search">
+                                <div class="categories-search__row">
+                                    <div class="categories-search__column">
+                                        <ul class="categories-search__list">
+                                            <li class="categories-search__item">
+                                                <label class="categories-search__checkbox">
+                                                    <input data-eror="ошибка" class="categories-search__input"
+                                                        type="checkbox" value="1" name="form[]" /> <span
+                                                        class="categories-search__text"><span>беговые
+                                                            дорожки</span></span>
+                                                </label>
+                                            </li>
+                                            <li class="categories-search__item">
+                                                <label class="categories-search__checkbox">
+                                                    <input data-eror="ошибка" class="categories-search__input"
+                                                        type="checkbox" value="1" name="form[]" /> <span
+                                                        class="categories-search__text"><span>беговые
+                                                            дорожки</span></span>
+                                                </label>
+                                            </li>
+                                            <li class="categories-search__item">
+                                                <label class="categories-search__checkbox">
+                                                    <input data-eror="ошибка" class="categories-search__input"
+                                                        type="checkbox" value="1" name="form[]" /> <span
+                                                        class="categories-search__text"><span>беговые
+                                                            дорожки</span></span>
+                                                </label>
+                                            </li>
+                                            <li class="categories-search__item">
+                                                <label class="categories-search__checkbox">
+                                                    <input data-eror="ошибка" class="categories-search__input"
+                                                        type="checkbox" value="1" name="form[]" /> <span
+                                                        class="categories-search__text"><span>беговые
+                                                            дорожки</span></span>
+                                                </label>
+                                            </li>
+                                            <li class="categories-search__item">
+                                                <label class="categories-search__checkbox">
+                                                    <input data-eror="ошибка" class="categories-search__input"
+                                                        type="checkbox" value="1" name="form[]" /> <span
+                                                        class="categories-search__text"><span>беговые
+                                                            дорожки</span></span>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="categories-search__column">
+                                        <ul class="categories-search__list">
+                                            <li class="categories-search__item">
+                                                <label class="categories-search__checkbox">
+                                                    <input data-eror="ошибка" class="categories-search__input"
+                                                        type="checkbox" value="1" name="form[]" /> <span
+                                                        class="categories-search__text"><span>беговые
+                                                            дорожки</span></span>
+                                                </label>
+                                            </li>
+                                            <li class="categories-search__item">
+                                                <label class="categories-search__checkbox">
+                                                    <input data-eror="ошибка" class="categories-search__input"
+                                                        type="checkbox" value="1" name="form[]" /> <span
+                                                        class="categories-search__text"><span>hh5tgthht
+                                                            hhrtrhthtrh</span></span>
+                                                </label>
+                                            </li>
+                                            <li class="categories-search__item">
+                                                <label class="categories-search__checkbox">
+                                                    <input data-eror="ошибка" class="categories-search__input"
+                                                        type="checkbox" value="1" name="form[]" /> <span
+                                                        class="categories-search__text"><span>беговые
+                                                            дорожки</span></span>
+                                                </label>
+                                            </li>
+                                            <li class="categories-search__item">
+                                                <label class="categories-search__checkbox">
+                                                    <input data-eror="ошибка" class="categories-search__input"
+                                                        type="checkbox" value="1" name="form[]" /> <span
+                                                        class="categories-search__text"><span>беговые
+                                                            дорожки</span></span>
+                                                </label>
+                                            </li>
+                                            <li class="categories-search__item">
+                                                <label class="categories-search__checkbox">
+                                                    <input data-eror="ошибка" class="categories-search__input"
+                                                        type="checkbox" value="1" name="form[]" /> <span
+                                                        class="categories-search__text"><span>беговые
+                                                            дорожки</span></span>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="categories-search__column">
+                                        <ul class="categories-search__list">
+                                            <li class="categories-search__item">
+                                                <label class="categories-search__checkbox">
+                                                    <input data-eror="ошибка" class="categories-search__input"
+                                                        type="checkbox" value="1" name="form[]" /> <span
+                                                        class="categories-search__text"><span>беговые
+                                                            дорожки</span></span>
+                                                </label>
+                                            </li>
+                                            <li class="categories-search__item">
+                                                <label class="categories-search__checkbox">
+                                                    <input data-eror="ошибка" class="categories-search__input"
+                                                        type="checkbox" value="1" name="form[]" /> <span
+                                                        class="categories-search__text"><span>беговые
+                                                            дорожки</span></span>
+                                                </label>
+                                            </li>
+                                            <li class="categories-search__item">
+                                                <label class="categories-search__checkbox">
+                                                    <input data-eror="ошибка" class="categories-search__input"
+                                                        type="checkbox" value="1" name="form[]" /> <span
+                                                        class="categories-search__text"><span>беговые
+                                                            дорожки</span></span>
+                                                </label>
+                                            </li>
+                                            <li class="categories-search__item">
+                                                <label class="categories-search__checkbox">
+                                                    <input data-eror="ошибка" class="categories-search__input"
+                                                        type="checkbox" value="1" name="form[]" /> <span
+                                                        class="categories-search__text"><span>беговые
+                                                            дорожки</span></span>
+                                                </label>
+                                            </li>
+                                            <li class="categories-search__item">
+                                                <label class="categories-search__checkbox">
+                                                    <input data-eror="ошибка" class="categories-search__input"
+                                                        type="checkbox" value="1" name="form[]" /> <span
+                                                        class="categories-search__text"><span>беговые
+                                                            дорожки</span></span>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="search-page__input"><input autocomplete="off" type="text" name="form[]"
+                                data-eror="ошибка" data-value="" /></div>
+                        <button type="submit" class="search-page__btn btn">найти</button>
+                    </form>
+                </div>
+                <div class="col-lg-6 menu2-block">
+                    <ul data-da=".menu-header__list, 991 , last " class="menu2-block__items">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">БУКЕТЫ</button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                        <li class="menu2-block__item"><a href="#" class="menu2-block__link">АКЦИИ</a></li>
+                        <li class="menu2-block__item"><a href="#" class="menu2-block__link">ПОДАРКИ</a></li>
+                        <li class="menu2-block__item"><a href="#" class="menu2-block__link">8 МАРТА</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+   
+    <div class="carta-tovara">
+        <div class="container">
+            <div class="promo__subtitle"></div>
+            <div class="row">
+                <div class="col-lg-6 offset-lg-1 carta-tovara__hover-image">
+                    <a data-fancybox="gallery" href="../../../img/catalog/avb/avb0011shop/avb0011_1.jpg">
+                        <img src="../../../img/catalog/avb/avb0011shop/avb0011_1m.jpg" alt="" />
+                        <div><img src="../../../icons/zoom.png" alt="zoom" /></div>
+                    </a>
+                </div>
+                <div class="col-lg-5 carta-tovara__info-block info-block">
+                    <div class="info-block__name-bucet">Букет Алые Паруса</div>
+                    <div class="info-block__articul-bucet">АРТ 0001</div>
+                    <div class="info-block__info-bucet">
+                        Знаете ли вы, что у каждого знака зодиака есть определенные растения, связанные с ним
+                        энергетически и подпитывающие его положительным «зарядом»? Козерогу (22 декабря – 20 января),
+                        которому покровительствует
+                        воинствующий Марс и строгий Сатурн, подходят неяркие цветы с прямыми стеблями, острыми листьями
+                        и даже колючками. Рассмотрим подробнее, какие флористические композиции и комнатные растения
+                    </div>
+                    <div class="info-block__sostav-bucet sostav-bucet">
+                        <div class="sostav-bucet__title">Состав букета:</div>
+                        <div class="row">
+                            <ul class="col-lg-7 offset-lg-1 sostav-bucet__items">
+                                <li class="sostav-bucet__item">101 кенийская роза красного цвета;</li>
+                                <li class="sostav-bucet__item">зелень (по желанию);</li>
+                                <li class="sostav-bucet__item">красивая упаковка (по желанию)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div
+                            class="col-lg-4 offset-lg-1 col-md-4 offset-md-1 col-sm-4 offset-sm-1 carta-tovara__prace-wrapper">
+                            <div class="info-block__price">7500 P <span>p</span></div>
+                            <div class="info-block__old-price">6500 P</div>
+                        </div>
+                        <div
+                            class="col-lg-6 offset-lg-1 col-md-6 offset-md-1 col-sm-4 offset-sm-1 carta-tovara__link-wrapper">
+                            <button class="button carta-tovara__oformit-zakaz">ОФОРМИТЬ ЗАКАЗ</button> <a href="#"
+                                class="fast-zakaz__link">БЫСТРЫЙ ЗАКАЗ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carta-tovara__miniimg-wrapper">
+                <a href="../../../img/catalog/avb/avb0011shop/avb0011_2.jpg" data-fancybox="gallery"
+                    class="carta-tovara__miniimg-link">
+                    <img src="../../../img/catalog/avb/avb0011shop/avb0011_2m.jpg" alt=""
+                        class="carta-tovara__miniimg" />
+                </a>
+                <a href="../../../img/catalog/avb/avb0011shop/avb0011_3.jpg" data-fancybox="gallery" class="carta-tovara__miniimg-link">
+                    <img src="../../../img/catalog/avb/avb0011shop/avb0011_3m.jpg" alt=""
+                    class="carta-tovara__miniimg" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 footer-link__wrapper">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 footer-link__col1">
+                            <a class="footer-link__item" href="">ссылка 1</a> <a class="footer-link__item"
+                                href="">ссылка 2</a> <a class="footer-link__item" class="footer-link__item"
+                                href="">ссылка 3</a>
+                            <a class="footer-link__item" href="">ссылка 4</a> <a class="footer-link__item"
+                                href="">ссылка 5</a> <a class="footer-link__item" href="">ссылка 6</a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 footer-link__col2">
+                            <a class="footer-link__item" href="">ссылка 7</a> <a class="footer-link__item"
+                                href="">ссылка 8</a> <a class="footer-link__item" href="">ссылка 9</a> <a
+                                class="footer-link__item" href="">ссылка 10</a>
+                            <a class="footer-link__item" href="">ссылка 11</a> <a class="footer-link__item"
+                                href="">ссылка 12</a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <div class="row footer-col__wrapper">
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="footer__tel-main">наш телефон</div>
+                                    <div class="footer__tel-number"><a href="tel:89154100837"
+                                            class="footer__tel-link">8-915-410-08-37</a></div>
+                                </div>
+                                <button class="col-lg-6 col-md-6 col-sm-6 button zakazat-zwonok__footer">ЗАКАЗАТЬ
+                                    ЗВОНОК</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 subscribe wthree-sub">
+                    <h4>Вы можете подписаться</h4>
+                    <form action="#" method="post">
+                        <input type="email" name="email" placeholder="Enter your Email..." required="" /> <input
+                            type="submit" value="ПОДПИСАТЬСЯ" />
+                        <div class="clearfix"></div>
+                    </form>
+                    <div class="header__social social-footer">
+                        <a href="" class="social__instagran"><img src="../../../icons/instagram.png" alt="inst" /></a>
+                        <a href="" class="social__watshap"><img src="../../../icons/watshap.png" alt="wats" /></a>
+                        <a href="" class="social__feysbuc"><img src="../../../icons/feysbuc.png" alt="feys" /></a>
+                        <a href="" class="social__twitter"><img src="../../../icons/twitter.png" alt="twit" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="subfooter">
+            <div class="container">
+                <hr class="footer__hr" />
+                <p>© 2021 A&GFloristic. All Rights Reserved | Design by <a href="#"
+                        target="_blank">ed7070707@mail.ru</a></p>
+                <hr class="footer__hr" />
+            </div>
+        </div>
+    </footer>
+    
+    
+    <script src="https://use.fontawesome.com/df966d76e1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="../../../js/slick.min.js"></script>
+    <script src="../../../js/jquery.rotating-slider.js"></script>
+    <script src="../../../js/jquery.fancybox.min.js"></script>
+    <script src="../../../js/script.js"></script>
+    <script></script>
+</body>
+
+</html>
